@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-07-12 18:37:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>86ed4da3137f7200d80074c66144b00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ahho_compliance_inspection_agency.x_ahho_compliance.user</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_security_acl display_value="x_ahho_compliance_inspection_agency">ceed4da3137f7200d80074c66144b009</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_86ed4da3137f7200d80074c66144b00d</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-07-12 18:37:16</sys_updated_on>
+        <sys_user_role display_value="x_ahho_compliance.user" name="x_ahho_compliance.user">80738911133f7a00cb92b7a66144b031</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

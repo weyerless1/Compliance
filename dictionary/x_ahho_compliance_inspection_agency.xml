@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Inspection agency" max_length="40" name="x_ahho_compliance_inspection_agency" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Description" max_length="120" name="description" type="string"/>
+        <element label="Instructions" max_length="4000" name="instructions" type="string"/>
+        <element label="Name" mandatory="true" max_length="80" name="name" type="string"/>
+    </element>
+</database>

@@ -6,26 +6,26 @@
         <description/>
         <device_type>browser</device_type>
         <hint/>
-        <name/>
+        <name>x_ahho_compliance_regulatory compliance</name>
         <order>100</order>
-        <roles/>
+        <roles>x_ahho_compliance.user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-07-05 18:13:42</sys_created_on>
+        <sys_created_on>2017-07-13 13:45:58</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>10740151133f7a00cb92b7a66144b0ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Compliance</sys_name>
+        <sys_id>34d4513b133bb200d80074c66144b007</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Regulatory Compliance</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>sys_app_application_10740151133f7a00cb92b7a66144b0ad</sys_update_name>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>sys_app_application_34d4513b133bb200d80074c66144b007</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-07-05 18:13:42</sys_updated_on>
-        <title>Compliance</title>
+        <sys_updated_on>2017-07-13 13:45:58</sys_updated_on>
+        <title>Regulatory Compliance</title>
         <view_name/>
     </sys_app_application>
 </record_update>

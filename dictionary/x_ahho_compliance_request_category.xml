@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Request category" max_length="40" name="x_ahho_compliance_request_category" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Name" mandatory="true" max_length="80" name="name" type="string"/>
+    </element>
+</database>
