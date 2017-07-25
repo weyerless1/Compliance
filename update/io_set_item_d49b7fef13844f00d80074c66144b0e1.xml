@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
-        <order>200</order>
-        <sc_cat_item display_value="General question customer">f6500f9713480f00d80074c66144b068</sc_cat_item>
+        <order>900</order>
+        <sc_cat_item display_value="Policy / Procedure Assignment for Acknowledgement">4457294a134c0b00d80074c66144b0f8</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-07-24 18:38:41</sys_created_on>
+        <sys_created_on>2017-07-25 17:31:41</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>d270cb1b13480f00d80074c66144b00b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Regulatory customer.General question customer</sys_name>
+        <sys_id>d49b7fef13844f00d80074c66144b0e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Regulatory details.Policy / Procedure Assignment for Acknowledgement</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>io_set_item_d270cb1b13480f00d80074c66144b00b</sys_update_name>
+        <sys_update_name>io_set_item_d49b7fef13844f00d80074c66144b0e1</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-07-25 13:38:17</sys_updated_on>
-        <variable_set display_value="Regulatory customer">c5d08f1b13480f00d80074c66144b0d7</variable_set>
+        <sys_updated_on>2017-07-25 17:33:49</sys_updated_on>
+        <variable_set display_value="Regulatory details">17340b2b13044f00d80074c66144b07e</variable_set>
     </io_set_item>
 </record_update>

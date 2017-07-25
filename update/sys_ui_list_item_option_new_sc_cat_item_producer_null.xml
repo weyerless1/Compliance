@@ -163,10 +163,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>tlWeyer</sys_created_by>
-            <sys_created_on>2017-07-21 14:54:37</sys_created_on>
+            <sys_created_on>2017-07-25 17:50:59</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>6c417ede13c84b00d80074c66144b00e</sys_id>
+            <sys_id>4fff3b6713c44f00d80074c66144b0af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>item_option_new</sys_name>
             <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
@@ -175,7 +175,7 @@
             <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
             <sys_update_name>sys_ui_list_item_option_new_sc_cat_item_producer_null</sys_update_name>
             <sys_updated_by>tlWeyer</sys_updated_by>
-            <sys_updated_on>2017-07-21 14:54:37</sys_updated_on>
+            <sys_updated_on>2017-07-25 17:50:59</sys_updated_on>
             <sys_user display_value="Thomas Weyer">6d72457ce0a0010078f2c0e8182e120e</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

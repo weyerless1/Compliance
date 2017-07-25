@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2017-07-24 21:06:44">
+<record_update node_type="sys_portal_page" unload_date="2017-07-25 20:30:32">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order/>
@@ -25,5 +25,142 @@
         <title>catalog_regulatory_compliance</title>
         <user/>
         <view>catalog_regulatory_compliance</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="catalog_regulatory_compliance">c7c121c6134c0b00d80074c66144b001</page>
+                <summary/>
+                <sys_created_by>tlWeyer</sys_created_by>
+                <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                <sys_id>4d4364bf1340cb00cb92b7a66144b099</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>tlWeyer</sys_updated_by>
+                <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>4543e4bf1340cb00cb92b7a66144b075</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>Regulatory Compliance [Regulatory Compliance]</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link_class</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>4943e4bf1340cb00cb92b7a66144b074</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>category_title_link</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>4943e4bf1340cb00cb92b7a66144b076</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>c7c121c6134c0b00d80074c66144b001</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>4d4364bf1340cb00cb92b7a66144b09a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>4d43e4bf1340cb00cb92b7a66144b075</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>c14364bf1340cb00cb92b7a66144b09b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>c143e4bf1340cb00cb92b7a66144b074</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>95812d86134c0b00d80074c66144b0b3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog_view</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>c143e4bf1340cb00cb92b7a66144b076</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>catalog_regulatory_compliance</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>macro</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>c54364bf1340cb00cb92b7a66144b09a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>sc_catalog_homepage_category_list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>cd4364bf1340cb00cb92b7a66144b099</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>5cf121c6134c0b00d80074c66144b004</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link</name>
+                        <portal_section display_value="Created 07-25-2017 16:25:08">4d4364bf1340cb00cb92b7a66144b099</portal_section>
+                        <sys_created_by>tlWeyer</sys_created_by>
+                        <sys_created_on>2017-07-25 20:25:08</sys_created_on>
+                        <sys_id>cd43e4bf1340cb00cb92b7a66144b074</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tlWeyer</sys_updated_by>
+                        <sys_updated_on>2017-07-25 20:25:08</sys_updated_on>
+                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=5cf121c6134c0b00d80074c66144b004&amp;amp;sysparm_catalog=95812d86134c0b00d80074c66144b0b3&amp;amp;sysparm_catalog_view=catalog_regulatory_compliance</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
     </sys_portal_page>
 </record_update>

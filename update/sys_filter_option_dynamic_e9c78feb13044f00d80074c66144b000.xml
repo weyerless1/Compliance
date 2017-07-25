@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_filter_option_dynamic">
+    <sys_filter_option_dynamic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for_default>false</available_for_default>
+        <available_for_filter>true</available_for_filter>
+        <available_for_ref_qual>false</available_for_ref_qual>
+        <field_type/>
+        <filter_by_schedule/>
+        <label>Request type for selected category</label>
+        <order/>
+        <roles/>
+        <script>request_type.category==category</script>
+        <script_reference_id/>
+        <script_reference_table/>
+        <sys_class_name>sys_filter_option_dynamic</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-07-25 13:53:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e9c78feb13044f00d80074c66144b000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request type for selected category</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>sys_filter_option_dynamic_e9c78feb13044f00d80074c66144b000</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-07-25 13:53:26</sys_updated_on>
+        <table>x_ahho_compliance_request</table>
+        <table_containing_filter/>
+    </sys_filter_option_dynamic>
+</record_update>
