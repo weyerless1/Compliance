@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Radiation FDA form 2579">f1aed68f13688340d80074c66144b057</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-08-17 18:01:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0dfe9e8f13688340d80074c66144b0b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Regulatory base.Radiation FDA form 2579</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>io_set_item_0dfe9e8f13688340d80074c66144b0b0</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-08-17 18:01:29</sys_updated_on>
+        <variable_set display_value="Regulatory base">7c214f2713044f00d80074c66144b06f</variable_set>
+    </io_set_item>
+</record_update>

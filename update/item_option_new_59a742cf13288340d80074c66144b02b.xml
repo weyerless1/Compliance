@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item/>
+        <cat_item display_value="Radiation New Badge/Monitor">d576ca8f13288340d80074c66144b03f</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -32,20 +32,20 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>description</name>
-        <order>200</order>
+        <name>phone_number</name>
+        <order>320</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Explanation</question_text>
+        <question_text>Phone Number</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table/>
+        <record_producer_table>x_ahho_compliance_request</record_producer_table>
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -57,26 +57,26 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-07-25 13:33:14</sys_created_on>
+        <sys_created_on>2017-08-17 16:20:33</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>cdd4436b13044f00d80074c66144b0b9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Explanation</sys_name>
+        <sys_id>59a742cf13288340d80074c66144b02b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Phone Number</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>item_option_new_cdd4436b13044f00d80074c66144b0b9</sys_update_name>
+        <sys_update_name>item_option_new_59a742cf13288340d80074c66144b02b</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-17 19:06:17</sys_updated_on>
+        <sys_updated_on>2017-08-17 16:20:33</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>2</type>
+        <type>6</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>
-        <variable_set display_value="Regulatory details">17340b2b13044f00d80074c66144b07e</variable_set>
+        <variable_set/>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
@@ -85,5 +85,5 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=cdd4436b13044f00d80074c66144b0b9"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=59a742cf13288340d80074c66144b02b"/>
 </record_update>
