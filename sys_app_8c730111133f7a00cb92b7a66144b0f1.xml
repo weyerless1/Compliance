@@ -16,21 +16,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_ahho_compliance</source>
-        <store_correlation_id>REPOAPP0000033914</store_correlation_id>
+        <store_correlation_id>REPOAPP0000034236</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>tlWeyer</sys_created_by>
         <sys_created_on>2017-07-05 18:05:12</sys_created_on>
         <sys_id>8c730111133f7a00cb92b7a66144b0f1</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-21 20:24:39</sys_updated_on>
+        <sys_updated_on>2017-08-23 20:04:48</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_ahho_compliance.user" name="x_ahho_compliance.user">80738911133f7a00cb92b7a66144b031</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </sys_app>
 </record_update>
