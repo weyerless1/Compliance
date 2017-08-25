@@ -2,7 +2,7 @@
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>200</order>
-        <sc_cat_item display_value="Preventative Maintenance">79876c3813788340cb92b7a66144b0f9</sc_cat_item>
+        <sc_cat_item display_value="Alternative Equipment Management or Equipment Management Score Inquiry">79876c3813788340cb92b7a66144b0f9</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
         <sys_created_on>2017-08-22 19:49:44</sys_created_on>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="General question">8a72f69f13080f00d80074c66144b063</sc_cat_item>
+        <sc_cat_item display_value="General question ">8a72f69f13080f00d80074c66144b063</sc_cat_item>
         <sc_catalog display_value="Regulatory Compliance">95812d86134c0b00d80074c66144b0b3</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>

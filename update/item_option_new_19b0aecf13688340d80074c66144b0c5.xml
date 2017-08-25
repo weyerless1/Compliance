@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Radiation FDA form 2579">f1aed68f13688340d80074c66144b057</cat_item>
+        <cat_item display_value="FDA form 2579">f1aed68f13688340d80074c66144b057</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>

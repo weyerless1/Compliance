@@ -2,10 +2,10 @@
 <record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <availability>on_desktop</availability>
+        <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Regulatory Compliance">5cf121c6134c0b00d80074c66144b004</category>
+        <category display_value="Alerts and Recalls">33a0cb2513708300cb92b7a66144b00c</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -17,7 +17,6 @@
 <li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><font color="#008000"><strong><span style="color: green;">To Submit Alert and Recall Bulk WO Update Request</span></strong></font><span style="color: black;"><br />Please provide the alert code (ALT000XXX) and attach an excel spreadsheet of alert WOs that need to be updated.&nbsp;<br />Include the following fields from RSQ:<br />&bull; Work Order Number<br />&bull; CEID, SN, Mfr, Model Name, Model Number<br />&bull; Reported Problem (this contains the ALT000XXX code)</span></span></li>
 <li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><font color="#008000"><strong><span style="color: green;">To Submit&nbsp;a Bulk Close Request for Not Affected WOs<br /></span></strong></font>If you are requesting a bulk close for alert WOs, this is only applicable for WOs with an Action Code of Investigated and a Follow Up Code of Not Affected. The request must include a note for the reason as to why the alert was not affected. On top of that, you need toinclude the name of the technician to be entered into the labor line, and the time per WO (must be greater than 5 mins). The WOs can be in a 10E or 60A status.&nbsp;</span></li>
 <li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><font color="#008000"><strong><span style="color: green;">To Submit&nbsp;Alert and Recall General/Others Questions</span></strong></font></span></li>
-<li><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><font color="#008000"><strong><span style="color: green;"><a class="linked formlink" style="color: #343d47;" href="https://trimedxllcdev.service-now.com/sys_attachment.do?sys_id=6b9962644f0e3680084358211310c739&amp;sysparm_record_target=sys_attachment&amp;sysparm_record_row=31&amp;sysparm_record_rows=4582&amp;sysparm_record_list=table_nameCONTAINSregulatory">PAARschedule.doc</a></span></strong></font></span></li>
 </ol>]]></description>
         <entitlement_script/>
         <group/>
@@ -51,7 +50,7 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <script><![CDATA[producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c66144b0b3";]]></script>
-        <short_description>Alerts and Recalls</short_description>
+        <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
@@ -59,7 +58,7 @@
         <sys_created_on>2017-07-26 15:28:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>b3f82804131ccb00cb92b7a66144b0f2</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Alerts and Recalls</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
@@ -67,7 +66,7 @@
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sc_cat_item_producer_b3f82804131ccb00cb92b7a66144b0f2</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-22 18:29:57</sys_updated_on>
+        <sys_updated_on>2017-08-25 14:56:34</sys_updated_on>
         <table_name>x_ahho_compliance_request</table_name>
         <template/>
         <type>item</type>

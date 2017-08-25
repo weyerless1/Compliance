@@ -7,7 +7,7 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_to>item</applies_to>
-        <cat_item display_value="General question">8a72f69f13080f00d80074c66144b063</cat_item>
+        <cat_item display_value="General question ">8a72f69f13080f00d80074c66144b063</cat_item>
         <cat_variable/>
         <condition/>
         <description/>

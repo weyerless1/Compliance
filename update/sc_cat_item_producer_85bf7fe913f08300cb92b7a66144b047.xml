@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Preventative Maintenance Schedules">e4024b6513708300cb92b7a66144b036</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>PM Not Needed</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>350</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=85bf7fe913f08300cb92b7a66144b047&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>95812d86134c0b00d80074c66144b0b3</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[var Divider    = "\n\n--------------------------------------------------";
+var Department = "\nDepartment: \t\t\t";
+var WONumber   = "\nWork Order Number: \t";
+
+var notes = Divider;
+
+notes += Department + producer.department.getDisplayValue();
+notes += WONumber   + producer.wo_number.getDisplayValue();
+
+// Add the request specific fields to the customer notes
+current.description += notes;
+
+producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c66144b0b3";]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-08-25 19:29:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>85bf7fe913f08300cb92b7a66144b047</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>PM Not Needed</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>sc_cat_item_producer_85bf7fe913f08300cb92b7a66144b047</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-08-25 19:38:03</sys_updated_on>
+        <table_name>x_ahho_compliance_request</table_name>
+        <template/>
+        <type>item</type>
+        <u_software_ci/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=85bf7fe913f08300cb92b7a66144b047"/>
+    <fx_price action="delete_multiple" query="id=85bf7fe913f08300cb92b7a66144b047"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>85bf7fe913f08300cb92b7a66144b047</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-08-25 19:29:01</sys_created_on>
+        <sys_id>c1bf7fe913f08300cb92b7a66144b048</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-08-25 19:29:01</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>85bf7fe913f08300cb92b7a66144b047</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-08-25 19:29:01</sys_created_on>
+        <sys_id>0dbf7fe913f08300cb92b7a66144b048</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-08-25 19:29:01</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#9be0f3</average_image_color>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>1625</size_bytes>
+        <size_compressed>1648</size_compressed>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-08-25 19:49:23</sys_created_on>
+        <sys_id>6354c0fd13f08300cb92b7a66144b0d7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-08-25 19:49:23</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>85bf7fe913f08300cb92b7a66144b047</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="6354c0fd13f08300cb92b7a66144b0d7">6354c0fd13f08300cb92b7a66144b0d7</sys_attachment>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-08-25 19:49:23</sys_created_on>
+        <sys_id>a354c0fd13f08300cb92b7a66144b0d7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2184</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="6354c0fd13f08300cb92b7a66144b0d7">6354c0fd13f08300cb92b7a66144b0d7</sys_attachment>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-08-25 19:49:23</sys_created_on>
+        <sys_id>2754c0fd13f08300cb92b7a66144b0d7</sys_id>
+    </sys_attachment_doc>
+</record_update>

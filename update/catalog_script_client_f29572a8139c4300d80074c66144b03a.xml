@@ -7,7 +7,7 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_to>item</applies_to>
-        <cat_item display_value="Inspection/Survey Notification">6e95be28139c4300d80074c66144b06f</cat_item>
+        <cat_item display_value="Notification">6e95be28139c4300d80074c66144b06f</cat_item>
         <cat_variable/>
         <condition/>
         <description/>

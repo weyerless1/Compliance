@@ -2,7 +2,7 @@
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
-        <sc_cat_item display_value="General question">8a72f69f13080f00d80074c66144b063</sc_cat_item>
+        <sc_cat_item display_value="General question ">8a72f69f13080f00d80074c66144b063</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
         <sys_created_on>2017-07-25 17:25:16</sys_created_on>

@@ -7,7 +7,7 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_to>item</applies_to>
-        <cat_item display_value="Policy/Procedure PolicyStat Permission Request">79cf0f96134c4b00d80074c66144b0cd</cat_item>
+        <cat_item display_value="PolicyStat Permission Request">79cf0f96134c4b00d80074c66144b0cd</cat_item>
         <cat_variable/>
         <condition/>
         <description/>
