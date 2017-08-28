@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Request" max_length="40" name="x_ahho_compliance_request" sizeclass="13" type="collection">
+    <element audit="true" extends="task" label="Request" max_length="40" name="x_ahho_compliance_request" sizeclass="21" type="collection">
         <element label="Category" max_length="32" name="category" reference="x_ahho_compliance_request_category" type="reference"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Customer(s)" max_length="4000" name="customer_list" reference="u_prod_gp_customer" type="glide_list"/>
         <element label="Pending external information" max_length="40" name="external_action_needed" type="boolean"/>
