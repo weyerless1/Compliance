@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Notification">6e95be28139c4300d80074c66144b06f</cat_item>
+        <cat_item display_value="Inspection Notification">6e95be28139c4300d80074c66144b06f</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>

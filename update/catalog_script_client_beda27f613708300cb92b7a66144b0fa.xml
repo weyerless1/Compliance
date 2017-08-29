@@ -7,40 +7,45 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_to>item</applies_to>
-        <cat_item display_value="General question">f6500f9713480f00d80074c66144b068</cat_item>
+        <cat_item display_value="Annual Assessment Submission">670457f613308300cb92b7a66144b03c</cat_item>
         <cat_variable/>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <messages/>
-        <name>General customer defaults</name>
+        <name>Annual Assessment Submission defaults</name>
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
 	
-	// Enable user to select category
-	g_form.setReadOnly('category', false);
+	var categoryId = '169a5d73137bb200d80074c66144b0a1';
+	var categoryName = 'MEMP';
 	
-	// Hide the request type... need to set this on submit to the appropriate General/Other based on category
+	var requestTypeId = '0ed247571364c340d80074c66144b09a';
+	var requestTypeName = 'Annual Assessment Submission';
+	
+	g_form.setValue('category', categoryId, categoryName);
+    g_form.setValue( 'request_type', requestTypeId, requestTypeName );
+	
 	g_form.setReadOnly('request_type', true);
 } ]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-07-28 16:04:39</sys_created_on>
+        <sys_created_on>2017-08-29 15:10:20</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>d344432413dc4300d80074c66144b0a5</sys_id>
+        <sys_id>beda27f613708300cb92b7a66144b0fa</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>General customer defaults</sys_name>
+        <sys_name>Annual Assessment Submission defaults</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>catalog_script_client_d344432413dc4300d80074c66144b0a5</sys_update_name>
+        <sys_update_name>catalog_script_client_beda27f613708300cb92b7a66144b0fa</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-29 15:59:11</sys_updated_on>
+        <sys_updated_on>2017-08-29 15:11:16</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

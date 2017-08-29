@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Inspection Question">fc7ea2e0139c4300d80074c66144b0b6</cat_item>
+        <cat_item display_value="MEMP Submission">17855b3a13308300cb92b7a66144b0a3</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -22,7 +22,7 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <include_none>true</include_none>
+        <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -36,17 +36,17 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>inspection_in_progress</name>
-        <order>400</order>
+        <name>accredation</name>
+        <order>300</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Are you in an inspection currently?</question_text>
+        <question_text>Customer accreditation</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_ahho_compliance_request</record_producer_table>
-        <reference/>
+        <reference>x_ahho_compliance_inspection_agency</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <scale_max>5</scale_max>
@@ -57,21 +57,21 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-07-28 14:36:50</sys_created_on>
+        <sys_created_on>2017-08-29 14:54:06</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>f4bf22a4139c4300d80074c66144b03e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Are you in an inspection currently?</sys_name>
+        <sys_id>ff20673213708300cb92b7a66144b04b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer accreditation</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>item_option_new_f4bf22a4139c4300d80074c66144b03e</sys_update_name>
+        <sys_update_name>item_option_new_ff20673213708300cb92b7a66144b04b</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-29 15:39:47</sys_updated_on>
+        <sys_updated_on>2017-08-29 14:54:06</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>1</type>
+        <type>8</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -85,5 +85,5 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=f4bf22a4139c4300d80074c66144b03e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff20673213708300cb92b7a66144b04b"/>
 </record_update>

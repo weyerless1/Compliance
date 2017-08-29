@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
-        <order>900</order>
-        <sc_cat_item display_value="General question">f6500f9713480f00d80074c66144b068</sc_cat_item>
+        <order>100</order>
+        <sc_cat_item display_value="Annual Assessment Submission">670457f613308300cb92b7a66144b03c</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-07-25 13:30:43</sys_created_on>
+        <sys_created_on>2017-08-29 13:35:03</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>0c04c32b13044f00d80074c66144b0e0</sys_id>
+        <sys_id>5b05973a13308300cb92b7a66144b05d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Regulatory details.General question customer</sys_name>
+        <sys_name>Regulatory base.Annual Assessment Submission</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>io_set_item_0c04c32b13044f00d80074c66144b0e0</sys_update_name>
+        <sys_update_name>io_set_item_5b05973a13308300cb92b7a66144b05d</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-07-25 13:30:43</sys_updated_on>
-        <variable_set display_value="Regulatory details">17340b2b13044f00d80074c66144b07e</variable_set>
+        <sys_updated_on>2017-08-29 13:35:03</sys_updated_on>
+        <variable_set display_value="Regulatory base">7c214f2713044f00d80074c66144b06f</variable_set>
     </io_set_item>
 </record_update>

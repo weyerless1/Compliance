@@ -7,42 +7,67 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_to>item</applies_to>
-        <cat_item display_value="General question">f6500f9713480f00d80074c66144b068</cat_item>
+        <cat_item display_value="New Radiation Badge/Monitor">d576ca8f13288340d80074c66144b03f</cat_item>
         <cat_variable/>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <messages/>
-        <name>General customer defaults</name>
+        <name>Radiation new date validation</name>
         <order/>
-        <script><![CDATA[function onLoad() {
+        <script><![CDATA[function onSubmit() {
    //Type appropriate comment here, and begin script below
+   var passValidation;
 	
-	// Enable user to select category
-	g_form.setReadOnly('category', false);
 	
-	// Hide the request type... need to set this on submit to the appropriate General/Other based on category
-	g_form.setReadOnly('request_type', true);
-} ]]></script>
+  if(value == '' || value == undefined || value == null){
+    passValidation = false;
+  }
+  passValidation = getDateFromFormat(value, g_user_date_time_format) != 0;
+	
+
+	//passValidation = isValidDateTime( 'birth_Date' );
+	
+	if (!passValidation)
+	{
+		alert('birth_Date','Date provided is invalid');
+	}
+	else
+		{
+			 alert('A-O-K'); 			
+		}
+		
+	return(passValidation);
+
+}
+
+/*
+function isValidDateTime(value){
+  if(value == '' || value == undefined || value == null){
+    return false;
+  }
+  return(getDateFromFormat(value, g_user_date_time_format) != 0);
+}
+*/]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-07-28 16:04:39</sys_created_on>
+        <sys_created_on>2017-08-28 20:16:19</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>d344432413dc4300d80074c66144b0a5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>General customer defaults</sys_name>
+        <sys_id>4386676e13b44300cb92b7a66144b0ca</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Radiation new date validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>catalog_script_client_d344432413dc4300d80074c66144b0a5</sys_update_name>
+        <sys_update_name>catalog_script_client_4386676e13b44300cb92b7a66144b0ca</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-29 15:59:11</sys_updated_on>
+        <sys_updated_on>2017-08-28 20:30:14</sys_updated_on>
         <table/>
-        <type>onLoad</type>
+        <type>onSubmit</type>
         <ui_type>10</ui_type>
         <variable_set/>
         <view/>
