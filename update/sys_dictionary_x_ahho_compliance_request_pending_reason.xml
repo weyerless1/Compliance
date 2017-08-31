@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="requester_action_needed" table="x_ahho_compliance_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="pending_reason" table="x_ahho_compliance_request">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -12,13 +12,13 @@
 	return '';  // return the calculated value
 
 })(current);</calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Requester action needed</column_label>
+        <column_label>Pending reason</column_label>
         <comments/>
         <create_roles/>
-        <default_value>false</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -28,10 +28,10 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>requester_action_needed</element>
+        <element>pending_reason</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="">boolean</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_ahho_compliance_request</name>
@@ -51,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-07-18 18:31:50</sys_created_on>
+        <sys_created_on>2017-08-30 20:52:51</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>c516042513c0c700d80074c66144b063</sys_id>
+        <sys_id>c792421f13b0c300cb92b7a66144b0e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Requester action needed</sys_name>
+        <sys_name>Pending reason</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>sys_dictionary_x_ahho_compliance_request_requester_action_needed</sys_update_name>
+        <sys_update_name>sys_dictionary_x_ahho_compliance_request_pending_reason</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-07-18 18:31:50</sys_updated_on>
+        <sys_updated_on>2017-08-30 20:52:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

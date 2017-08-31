@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Request" max_length="40" name="x_ahho_compliance_request" sizeclass="21" type="collection">
+    <element audit="true" extends="task" label="Request" max_length="40" name="x_ahho_compliance_request" sizeclass="31" type="collection">
         <element label="Category" max_length="32" name="category" reference="x_ahho_compliance_request_category" type="reference"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Customer(s)" max_length="4000" name="customer_list" reference="u_prod_gp_customer" type="glide_list"/>
-        <element label="Pending external information" max_length="40" name="external_action_needed" type="boolean"/>
+        <element choice="1" label="Pending reason" max_length="40" name="pending_reason" type="choice">
+            <choice>
+                <element label="Waiting on info - Requestor" sequence="100" value="1"/>
+                <element label="Waiting on info - External" sequence="200" value="2"/>
+            </choice>
+        </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:gs.getUserID()&#9;" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference" use_dynamic_default="true"/>
-        <element label="Requester action needed" max_length="40" name="requester_action_needed" type="boolean"/>
         <element label="Request type" max_length="32" name="request_type" reference="x_ahho_compliance_request_type" reference_qual="javascript:'active=true^category ='+ current.category;" type="reference" use_reference_qualifier="advanced"/>
         <element choice="1" label="Required documents attached" max_length="40" name="required_documents_attached" type="boolean">
             <choice/>

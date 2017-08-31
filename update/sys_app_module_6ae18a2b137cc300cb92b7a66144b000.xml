@@ -6,16 +6,20 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="x_ahho_compliance_request">active=true^assigned_toISEMPTY^assignment_group=37d3a36f13922a0082857e776144b0f4^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item display_table="sys_user_group" display_value="Regulatory-All" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="37d3a36f13922a0082857e776144b0f4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Request tasks</mobile_title>
+        <mobile_title>Requests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_ahho_compliance_request_task</name>
-        <order>700</order>
+        <name>x_ahho_compliance_request</name>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,22 +28,22 @@
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-07-12 20:08:26</sys_created_on>
+        <sys_created_on>2017-08-31 15:27:16</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>f9c2212713bf7200d80074c66144b022</sys_id>
+        <sys_id>6ae18a2b137cc300cb92b7a66144b000</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>All Regulatory request tasks</sys_name>
+        <sys_name>Open-unassigned</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>sys_app_module_f9c2212713bf7200d80074c66144b022</sys_update_name>
+        <sys_update_name>sys_app_module_6ae18a2b137cc300cb92b7a66144b000</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-31 16:03:37</sys_updated_on>
+        <sys_updated_on>2017-08-31 16:11:01</sys_updated_on>
         <timeline_page/>
-        <title>All Regulatory request tasks</title>
+        <title>Open-unassigned</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -12,8 +12,8 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p style="font-size: 10pt; margin: 0px 0px 9px;"><span style="font-size: 14pt;">Attachment Templates</span></p>
-<p style="font-size: 10pt; margin: 0px 0px 9px;"><a style="color: #006ba6;" href="https://trimedxllcdev.service-now.com/sys_attachment.do?sys_id=9a913f17c92ec200e577a597c1bfb0d1">Bulk Inventory Import.xls</a></p>
-<p style="font-size: 10pt; margin: 0px 0px 9px;"><a style="color: #006ba6;" href="https://trimedxllcdev.service-now.com/sys_attachment.do?sys_id=5361e04e71360200e5775c271b491c26">New Department Request Form.xls</a></p>]]></description>
+<p style="font-size: 10pt; margin: 0px 0px 9px;"><a style="color: #006ba6;" href="/sys_attachment.do?sys_id=9a913f17c92ec200e577a597c1bfb0d1">Bulk Inventory Import.xls</a></p>
+<p style="font-size: 10pt; margin: 0px 0px 9px;"><a style="color: #006ba6;" href="/sys_attachment.do?sys_id=5361e04e71360200e5775c271b491c26">New Department Request Form.xls</a></p>]]></description>
         <entitlement_script/>
         <group/>
         <icon/>
@@ -54,7 +54,7 @@
         <sys_created_on>2017-08-24 16:05:24</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>f487421113744300cb92b7a66144b0f9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Bulk request</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sc_cat_item_producer_f487421113744300cb92b7a66144b0f9</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-25 14:59:03</sys_updated_on>
+        <sys_updated_on>2017-08-31 14:12:43</sys_updated_on>
         <table_name>x_ahho_compliance_request</table_name>
         <template/>
         <type>item</type>
