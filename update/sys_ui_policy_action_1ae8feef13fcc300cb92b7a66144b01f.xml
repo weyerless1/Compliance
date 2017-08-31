@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>assigned_to</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-08-31 19:27:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1ae8feef13fcc300cb92b7a66144b01f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1ae8feef13fcc300cb92b7a66144b01f</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-08-31 19:27:47</sys_updated_on>
+        <table>x_ahho_compliance_request</table>
+        <ui_policy display_value="Assigned to mandatory when State not Open">cff7f2ef13fcc300cb92b7a66144b079</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

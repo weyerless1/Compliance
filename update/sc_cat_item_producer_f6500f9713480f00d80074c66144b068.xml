@@ -43,7 +43,11 @@
         <sc_catalogs>95812d86134c0b00d80074c66144b0b3</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c66144b0b3";]]></script>
+        <script><![CDATA[
+// Set the default assignment group to Regulatory
+current.assignment_group.setDisplayValue('Regulatory-All');
+
+producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c66144b0b3";]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -52,7 +56,7 @@
         <sys_created_on>2017-07-24 18:34:30</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>f6500f9713480f00d80074c66144b068</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>General question</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
@@ -60,7 +64,7 @@
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sc_cat_item_producer_f6500f9713480f00d80074c66144b068</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-29 16:42:26</sys_updated_on>
+        <sys_updated_on>2017-08-31 18:27:47</sys_updated_on>
         <table_name>x_ahho_compliance_request</table_name>
         <template/>
         <type>item</type>
