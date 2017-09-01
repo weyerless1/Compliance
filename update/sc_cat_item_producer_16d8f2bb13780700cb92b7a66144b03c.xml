@@ -5,14 +5,13 @@
         <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Bulk request">98a10fe113708300cb92b7a66144b0eb</category>
+        <category display_value="General regulatory question">f01a8fa513708300cb92b7a66144b0db</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p style="font-size: 10pt; margin: 0px 0px 9px;"><span style="font-size: 14pt;">Attachment Templates</span></p>
-<p style="font-size: 10pt; margin: 0px 0px 9px;"><a style="color: #006ba6;" href="/sys_attachment.do?sys_id=9a913f17c92ec200e577a597c1bfb0d1">Bulk Inventory Import.xls</a></p>]]></description>
+        <description/>
         <entitlement_script/>
         <group/>
         <icon/>
@@ -25,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Bulk request</name>
+        <name>General question</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -33,10 +32,10 @@
         <no_quantity>false</no_quantity>
         <no_search>false</no_search>
         <omit_price>false</omit_price>
-        <order>150</order>
+        <order>910</order>
         <ordered_item_link/>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f487421113744300cb92b7a66144b0f9&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=16d8f2bb13780700cb92b7a66144b03c&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
@@ -53,18 +52,18 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-08-24 16:05:24</sys_created_on>
+        <sys_created_on>2017-09-01 14:05:45</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>f487421113744300cb92b7a66144b0f9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Bulk request</sys_name>
+        <sys_id>16d8f2bb13780700cb92b7a66144b03c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General question</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>sc_cat_item_producer_f487421113744300cb92b7a66144b0f9</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_16d8f2bb13780700cb92b7a66144b03c</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-01 16:07:32</sys_updated_on>
+        <sys_updated_on>2017-09-01 14:05:45</sys_updated_on>
         <table_name>x_ahho_compliance_request</table_name>
         <template/>
         <type>item</type>
@@ -77,22 +76,22 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=f487421113744300cb92b7a66144b0f9"/>
-    <fx_price action="delete_multiple" query="id=f487421113744300cb92b7a66144b0f9"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=16d8f2bb13780700cb92b7a66144b03c"/>
+    <fx_price action="delete_multiple" query="id=16d8f2bb13780700cb92b7a66144b03c"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>f487421113744300cb92b7a66144b0f9</id>
+        <id>16d8f2bb13780700cb92b7a66144b03c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-08-24 16:05:24</sys_created_on>
-        <sys_id>7887421113744300cb92b7a66144b0fa</sys_id>
+        <sys_created_on>2017-09-01 14:05:45</sys_created_on>
+        <sys_id>d2d8f2bb13780700cb92b7a66144b03d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-24 16:05:24</sys_updated_on>
+        <sys_updated_on>2017-09-01 14:05:45</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
@@ -100,16 +99,16 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
-        <id>f487421113744300cb92b7a66144b0f9</id>
+        <id>16d8f2bb13780700cb92b7a66144b03c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-08-24 16:05:25</sys_created_on>
-        <sys_id>3887421113744300cb92b7a66144b0fb</sys_id>
+        <sys_created_on>2017-09-01 14:05:45</sys_created_on>
+        <sys_id>96d8f2bb13780700cb92b7a66144b03e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-24 16:05:25</sys_updated_on>
+        <sys_updated_on>2017-09-01 14:05:45</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
