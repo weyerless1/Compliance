@@ -10,7 +10,7 @@
             </choice>
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:gs.getUserID()&#9;" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference" use_dynamic_default="true"/>
-        <element label="Request type" max_length="32" name="request_type" reference="x_ahho_compliance_request_type" reference_qual="javascript:'active=true^category ='+ current.category;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Request type" mandatory="true" max_length="32" name="request_type" reference="x_ahho_compliance_request_type" reference_qual="javascript:'active=true^category ='+ current.category;" type="reference" use_reference_qualifier="advanced"/>
         <element choice="1" label="Required documents attached" max_length="40" name="required_documents_attached" type="boolean">
             <choice/>
         </element>

@@ -2,7 +2,7 @@
 <record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="MEMP Submission">17855b3a13308300cb92b7a66144b0a3</sc_cat_item>
-        <sc_category display_value="MEMP and Anuual Assessment">34a35fb613308300cb92b7a66144b0fe</sc_category>
+        <sc_category display_value="MEMP and Annual Assessment">34a35fb613308300cb92b7a66144b0fe</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
         <sys_created_on>2017-08-29 15:05:54</sys_created_on>
