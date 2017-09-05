@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_catalog">
-    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
         <sc_cat_item display_value="General request question">16d8f2bb13780700cb92b7a66144b03c</sc_cat_item>
-        <sc_catalog display_value="Regulatory Compliance">95812d86134c0b00d80074c66144b0b3</sc_catalog>
-        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-09-01 14:05:45</sys_created_on>
+        <sys_created_on>2017-09-01 19:07:24</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>52d8f2bb13780700cb92b7a66144b040</sys_id>
+        <sys_id>f8edb3fb13b8c300d80074c66144b0b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Regulatory Compliance.General question</sys_name>
+        <sys_name>Regulatory base.General request question</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_52d8f2bb13780700cb92b7a66144b040</sys_update_name>
+        <sys_update_name>io_set_item_f8edb3fb13b8c300d80074c66144b0b6</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-01 14:05:45</sys_updated_on>
-    </sc_cat_item_catalog>
+        <sys_updated_on>2017-09-01 19:07:24</sys_updated_on>
+        <variable_set display_value="Regulatory base">7c214f2713044f00d80074c66144b06f</variable_set>
+    </io_set_item>
 </record_update>

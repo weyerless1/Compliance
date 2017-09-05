@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>General question</name>
+        <name>General regulatory question</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -43,8 +43,7 @@
         <sc_catalogs>95812d86134c0b00d80074c66144b0b3</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[
-// Set the default assignment group to Regulatory
+        <script><![CDATA[// Set the default assignment group to Regulatory
 current.assignment_group.setDisplayValue('Regulatory-All');
 
 producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c66144b0b3";]]></script>
@@ -56,15 +55,15 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <sys_created_on>2017-07-24 18:34:30</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>f6500f9713480f00d80074c66144b068</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>General question</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>General regulatory question</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sc_cat_item_producer_f6500f9713480f00d80074c66144b068</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-31 18:27:47</sys_updated_on>
+        <sys_updated_on>2017-09-05 14:43:26</sys_updated_on>
         <table_name>x_ahho_compliance_request</table_name>
         <template/>
         <type>item</type>
