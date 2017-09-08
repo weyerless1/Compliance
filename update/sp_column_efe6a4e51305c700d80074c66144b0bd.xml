@@ -2,25 +2,25 @@
 <record_update table="sp_column">
     <sp_column action="INSERT_OR_UPDATE">
         <class_name/>
-        <order>1</order>
-        <size>12</size>
+        <order>2</order>
+        <size>6</size>
         <size_lg/>
         <size_sm/>
         <size_xs/>
-        <sp_row display_value="1">6c52d3ae13744300cb92b7a66144b0e3</sp_row>
+        <sp_row display_value="1">a7e624e51305c700d80074c66144b0bc</sp_row>
         <sys_class_name>sp_column</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-08-28 18:44:39</sys_created_on>
+        <sys_created_on>2017-09-06 13:57:37</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>f452d3ae13744300cb92b7a66144b0e5</sys_id>
+        <sys_id>efe6a4e51305c700d80074c66144b0bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>1</sys_name>
+        <sys_name>2</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>sp_column_f452d3ae13744300cb92b7a66144b0e5</sys_update_name>
+        <sys_update_name>sp_column_efe6a4e51305c700d80074c66144b0bd</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-28 18:44:39</sys_updated_on>
+        <sys_updated_on>2017-09-06 13:57:37</sys_updated_on>
     </sp_column>
 </record_update>

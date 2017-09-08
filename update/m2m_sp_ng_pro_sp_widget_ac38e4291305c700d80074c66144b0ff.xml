@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="spCategoryListItem">3b664cb56720220023c82e08f585ef14</sp_angular_provider>
+        <sp_widget display_value="Regulatory Categories">e438e4291305c700d80074c66144b0fd</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-09-06 14:03:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ac38e4291305c700d80074c66144b0ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spCategoryListItem.Regulatory Categories</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_ac38e4291305c700d80074c66144b0ff</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-09-06 14:03:08</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>
