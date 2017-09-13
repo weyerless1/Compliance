@@ -2,7 +2,8 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_ahho_compliance_request">state&gt;1^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="&gt;" or="false" value="1"/>
+        <conditions table="x_ahho_compliance_request">active=true^state&gt;1^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="&gt;" or="false" value="1"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -21,15 +22,15 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Assigned to mandatory when State not Open</short_description>
+        <short_description>State not Open Assigned to mandatory</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
         <sys_created_on>2017-08-31 19:27:13</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>cff7f2ef13fcc300cb92b7a66144b079</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Assigned to mandatory when State not Open</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>State not Open Assigned to mandatory</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
@@ -37,7 +38,7 @@
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sys_ui_policy_cff7f2ef13fcc300cb92b7a66144b079</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-31 19:27:13</sys_updated_on>
+        <sys_updated_on>2017-09-11 20:33:19</sys_updated_on>
         <table>x_ahho_compliance_request</table>
         <ui_type>0</ui_type>
         <view/>

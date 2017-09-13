@@ -19,7 +19,7 @@
         <sys_updated_by>tlWeyer</sys_updated_by>
         <sys_updated_on>2017-09-05 20:04:56</sys_updated_on>
         <table>x_ahho_compliance_request</table>
-        <ui_policy display_value="Assigned to mandatory when State not Open">cff7f2ef13fcc300cb92b7a66144b079</ui_policy>
+        <ui_policy display_value="State not Open Assigned to mandatory">cff7f2ef13fcc300cb92b7a66144b079</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>
