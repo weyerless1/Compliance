@@ -4,47 +4,40 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>On status change: &#13;
-- from pending to other, clear the Pending reason field&#13;
-- to pending from other, mandatory customer comments</description>
-        <field>state</field>
+        <description>When pending reason changes&#13;
+- to Requester, make customer comments mandatory</description>
+        <field>pending_reason</field>
         <global>true</global>
         <messages/>
-        <name>State change</name>
+        <name>Pending reason change</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue === '') {
       return;
    }
 
-	// Clear the pending field if the State is change to anything other than Pending
-    if((newValue != oldValue) && (newValue != 'Pending'))
-	{
-		g_form.setValue('pending_reason', ''); 
-	}
-	
-	// State is change to Pending, and pending_reason is Requester, make customer comments mandatory
-    if((newValue != oldValue) && (newValue == 'Pending') && (g_form.getValue('pending_reason' == 1)))
+	// Pending reason is change to Requester, make customer comments mandatory
+    if((newValue != oldValue) && (newValue == '1'))
 	{
 		g_form.setMandatory('comments', true);
 	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-08-31 14:50:23</sys_created_on>
+        <sys_created_on>2017-09-15 17:29:05</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>1279f5a3137cc300cb92b7a66144b05d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>State change</sys_name>
+        <sys_id>56fc23981315cf00d80074c66144b099</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Pending reason change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>sys_script_client_1279f5a3137cc300cb92b7a66144b05d</sys_update_name>
+        <sys_update_name>sys_script_client_56fc23981315cf00d80074c66144b099</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-15 17:24:05</sys_updated_on>
+        <sys_updated_on>2017-09-15 17:35:42</sys_updated_on>
         <table>x_ahho_compliance_request</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

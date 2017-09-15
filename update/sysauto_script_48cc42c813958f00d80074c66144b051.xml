@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Regulatory pending reminders</name>
+        <run_as display_value="Thomas Weyer">6d72457ce0a0010078f2c0e8182e120e</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-04 00:00:00</run_period>
+        <run_start>2017-09-14 15:47:16</run_start>
+        <run_time>1970-01-01 10:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sendPendingInputReminders();
+
+function sendPendingInputReminders()
+{
+	// Constants - magic numbers and object names
+	var requestTable           = "x_ahho_compliance_request";
+	var repeatingReminderEvent = "x_ahho_compliance.request.pending";
+	var finalReminderEvent     = "x_ahho_compliance.request.pending_final";
+	var reminderFrequency      = 3;  // in days
+	
+	var pendingRequest = new GlideRecord(requestTable);
+
+	pendingRequest.addQuery('active', 'true');            // active, not closed
+	pendingRequest.addQuery('state', 5);                  // pending
+	pendingRequest.addQuery('pending_reason', '=', '1');  // Waiting on info - Requestor
+	pendingRequest.query();
+
+	// Process matching records to fire appropriate events
+	while (pendingRequest.next()) {
+
+		var reminderNumber;
+		var lastReminderDate;
+		var reminderEvent;
+		var reminderText;
+		var shouldSendReminder;
+
+		// Get last reminder data from the record
+		reminderNumber   = parseInt(pendingRequest.getValue('pending_reminder_number'));
+		lastReminderDate = new GlideDateTime(pendingRequest.getValue('pending_reminder_last_sent'));
+
+		// Only send reminder if enough time has elapsed
+		shouldSendReminder = lastReminderDate <= gs.daysAgo(reminderFrequency);
+
+		// fire event if time delay elapsed and only for reminders 2-6
+		if (shouldSendReminder && (reminderNumber > 0 ) && (reminderNumber < 6))
+		{
+			reminderEvent = repeatingReminderEvent;
+			reminderText  = "";	
+
+			// Prep the appended subject line text per reminder
+			switch(reminderNumber)
+			{
+				case 1: reminderText = " - second reminder"; break;
+				case 2: reminderText = " - third reminder";  break;
+				case 3: reminderText = " - fourth reminder"; break;
+				case 4: reminderText = " - fifth reminder";  break;						
+				case 5: reminderText = " - FINAL REMINDER"; 
+						reminderEvent = finalReminderEvent;  // also set event on final
+						break;					
+			}		
+
+			// Send event for pending reminder
+			gs.eventQueue(reminderEvent, pendingRequest, pendingRequest.number, reminderText );
+
+			// Update record with last reminder sent info
+			pendingRequest.pending_reminder_number = reminderNumber + 1;  // increment 
+			pendingRequest.pending_reminder_last_sent = new GlideDate();  // today
+			pendingRequest.update();
+		}
+	}
+}	]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-09-14 15:51:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>48cc42c813958f00d80074c66144b051</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>Regulatory pending reminders</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>sysauto_script_48cc42c813958f00d80074c66144b051</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-09-15 15:54:38</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

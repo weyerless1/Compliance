@@ -9,8 +9,8 @@
         <collection>x_ahho_compliance_request</collection>
         <condition/>
         <content_type>text/html</content_type>
-        <description>Requester did not respond to additional information, send autoclose notice</description>
-        <event_name>x_ahho_compliance.request.autoclose</event_name>
+        <description/>
+        <event_name>x_ahho_compliance.request.pending_final</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -28,42 +28,42 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><font size="3">Hello &nbsp;${opened_by},<br /></font></span></p>
-<p><span style="font-size: 12pt;">We needed more information from you to complete the regulatory request you opened. &nbsp;</span></p>
-<p><span style="font-size: 12pt;">Since you have not responded after four email requests for information, your request has been closed. &nbsp;If you need further assistance, please submit a new request. &nbsp;</span></p>
+<p><span style="font-size: 12pt;"><strong>This is your FINAL REMINDER. &nbsp;</strong>Your request will be automatically closed in 24 hours unless you respond with the requested information we need to complete your request.&nbsp;</span></p>
+<p><span style="font-size: 12pt;">We need more information from you to complete the regulatory request you opened. &nbsp;Please open the request via the link below and add the required information.&nbsp;</span></p>
 <p><span style="font-size: 12pt;">${category} :&nbsp;${request_type}</span></p>
 <p><span style="font-size: 12pt;">${short_description}</span><br /><br /></p>
 <p><span style="font-size: 12pt;">Click here to be taken to the Regulatory Request: ${URI_REF}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Auto close request</name>
+        <name>Pending requester input FINAL</name>
         <omit_watermark>false</omit_watermark>
         <order/>
         <push_message_only>false</push_message_only>
-        <recipient_fields>opened_by,assigned_to,requested_for</recipient_fields>
+        <recipient_fields>opened_by,requested_for</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Notice:  Your Regulatory Request ${number} was automatically closed</subject>
+        <subject>Notice:  Your Regulatory Request ${number}  requires more info from you ${event.parm2}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-09-08 20:42:15</sys_created_on>
+        <sys_created_on>2017-09-14 20:06:14</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>56b69c9613898300cb92b7a66144b0eb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Auto close request</sys_name>
+        <sys_id>9d08438813598f00d80074c66144b041</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Pending requester input FINAL</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>sysevent_email_action_56b69c9613898300cb92b7a66144b0eb</sys_update_name>
+        <sys_update_name>sysevent_email_action_9d08438813598f00d80074c66144b041</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-15 15:25:22</sys_updated_on>
+        <sys_updated_on>2017-09-15 15:25:11</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

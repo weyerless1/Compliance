@@ -337,6 +337,34 @@
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pending_reminder_last_sent</element>
+            <position>24</position>
+            <sys_created_by>tlWeyer</sys_created_by>
+            <sys_created_on>2017-09-14 16:51:40</sys_created_on>
+            <sys_id>5b7b9e0413d58f00d80074c66144b038</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_compliance_request" sys_domain="global" view="Default view">27bbe9bf137bb200d80074c66144b01c</sys_ui_section>
+            <sys_updated_by>tlWeyer</sys_updated_by>
+            <sys_updated_on>2017-09-14 16:51:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pending_reminder_number</element>
+            <position>25</position>
+            <sys_created_by>tlWeyer</sys_created_by>
+            <sys_created_on>2017-09-14 16:52:46</sys_created_on>
+            <sys_id>a3bb124413d58f00d80074c66144b0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_compliance_request" sys_domain="global" view="Default view">27bbe9bf137bb200d80074c66144b01c</sys_ui_section>
+            <sys_updated_by>tlWeyer</sys_updated_by>
+            <sys_updated_on>2017-09-14 16:52:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

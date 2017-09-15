@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="pending_reminder_last_sent" label="Pending reminder last sent" language="en" table="x_ahho_compliance_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>pending_reminder_last_sent</element>
+            <help/>
+            <hint/>
+            <label>Pending reminder last sent</label>
+            <language>en</language>
+            <name>x_ahho_compliance_request</name>
+            <plural>Pending reminder last sents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tlWeyer</sys_created_by>
+            <sys_created_on>2017-09-14 16:51:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5f7b9e0413d58f00d80074c66144b03f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Pending reminder last sent</sys_name>
+            <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+            <sys_update_name>sys_documentation_x_ahho_compliance_request_pending_reminder_last_sent_en</sys_update_name>
+            <sys_updated_by>tlWeyer</sys_updated_by>
+            <sys_updated_on>2017-09-14 16:51:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

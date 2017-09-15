@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Final reminder for pending request input from requester</description>
+        <event_name>x_ahho_compliance.request.pending_final</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>request.pending_final</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-09-14 17:36:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c555ee0c13d58f00d80074c66144b0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ahho_compliance.request.pending_final</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>sysevent_register_c555ee0c13d58f00d80074c66144b0ec</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-09-14 17:36:43</sys_updated_on>
+        <table>x_ahho_compliance_request</table>
+    </sysevent_register>
+</record_update>
