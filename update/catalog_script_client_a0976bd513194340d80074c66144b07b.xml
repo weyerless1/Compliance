@@ -7,14 +7,14 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_to>item</applies_to>
-        <cat_item display_value="Annual Assessment Submission">670457f613308300cb92b7a66144b03c</cat_item>
+        <cat_item display_value="MEMP Submission">17855b3a13308300cb92b7a66144b0a3</cat_item>
         <cat_variable/>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <messages/>
-        <name>Annual Assessment Submission attachments</name>
+        <name>MEMP Submission attachments</name>
         <order/>
         <script><![CDATA[function onSubmit() {
 
@@ -36,20 +36,20 @@
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-09-15 18:58:10</sys_created_on>
+        <sys_created_on>2017-09-18 19:36:29</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>b66004681355cf00d80074c66144b07f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Annual Assessment Submission attachments</sys_name>
+        <sys_id>a0976bd513194340d80074c66144b07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MEMP Submission attachments</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>catalog_script_client_b66004681355cf00d80074c66144b07f</sys_update_name>
+        <sys_update_name>catalog_script_client_a0976bd513194340d80074c66144b07b</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-18 19:32:21</sys_updated_on>
+        <sys_updated_on>2017-09-18 19:36:29</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
