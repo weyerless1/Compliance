@@ -7,14 +7,14 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_to>item</applies_to>
-        <cat_item display_value="Alerts and Recalls">b3f82804131ccb00cb92b7a66144b0f2</cat_item>
+        <cat_item display_value="Equipment">edb80bd71328cf00cb92b7a66144b0ad</cat_item>
         <cat_variable/>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <messages/>
-        <name>Alerts attachments</name>
+        <name>Equipment attachments</name>
         <order/>
         <script><![CDATA[function onSubmit() {
 
@@ -25,10 +25,8 @@
 	var AlertMessage = 'You must attach the completed form before submitting this request.';
 	
 	var RequestsRequireAttachments = [ 
-			'0cb43a1313480f00d80074c66144b058',   // Alert Bulk WO update
-			'16e4b21313480f00d80074c66144b063',   // Alert Bulk Close	
-			'42dc15b3137bb200d80074c66144b036',   // Alert WO creation	
-			'0844321313480f00d80074c66144b0a3' ]; // Alert WO reassignment		
+			'dbf7c71b1364c340d80074c66144b000',   // Unmatched device	
+			'4168471b1364c340d80074c66144b098' ]; // EOL/EOS Information	
 	
 	// attachment required if the selected request is in the list 
 	attachmentRequired = (RequestsRequireAttachments.indexOf(requestType) >= 0);
@@ -47,20 +45,20 @@
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-09-18 17:52:52</sys_created_on>
+        <sys_created_on>2017-09-18 20:28:13</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>72dfc71913d54340d80074c66144b099</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Alerts attachments</sys_name>
+        <sys_id>5663ff9d13194340d80074c66144b0b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Equipment attachments</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>catalog_script_client_72dfc71913d54340d80074c66144b099</sys_update_name>
+        <sys_update_name>catalog_script_client_5663ff9d13194340d80074c66144b0b6</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-18 20:37:22</sys_updated_on>
+        <sys_updated_on>2017-09-18 20:33:48</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
