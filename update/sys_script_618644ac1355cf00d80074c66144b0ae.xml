@@ -10,7 +10,7 @@
         <action_query>false</action_query>
         <action_run_at>server</action_run_at>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <application/>
@@ -44,7 +44,8 @@
 	// if State = Pending, Pending reason = Requester, and user either Opened or Requested for
 	if ((current.state = 5) && (current.pending_reason == "1") && ((user == current.opened_by) || (user == current.requested_for)))
 	{
-		current.state = 2; // change state back to WIP
+		current.state = 2;           // change state back to WIP
+		current.pending_reason = ''; // resent pending reason
 	}
 
 })(current, previous);]]></script>
@@ -54,7 +55,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>618644ac1355cf00d80074c66144b0ae</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Pending input received</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
@@ -63,7 +64,7 @@
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sys_script_618644ac1355cf00d80074c66144b0ae</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-15 19:45:58</sys_updated_on>
+        <sys_updated_on>2017-09-19 12:47:09</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

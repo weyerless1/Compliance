@@ -18,10 +18,17 @@
    }
 
 	// Clear the pending field if the State is change to anything other than Pending
-    if((newValue != oldValue) && (newValue != 'Pending'))
+    if(newValue != 'Pending')
 	{
 		g_form.setValue('pending_reason', ''); 
 	}
+	
+	// Clear the pending resoved and close notes if the State is change to anything other than Closed
+    if(newValue != 'Closed')
+	{
+		g_form.setValue('resolution_code', ''); 
+		g_form.setValue('close_notes', ''); 		
+	}	
 	
 	// State is change to Pending, and pending_reason is Requester, make customer comments mandatory
     if((newValue != oldValue) && (newValue == 'Pending') && (g_form.getValue('pending_reason' == 1)))
@@ -35,7 +42,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1279f5a3137cc300cb92b7a66144b05d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>State change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
@@ -44,7 +51,7 @@
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sys_script_client_1279f5a3137cc300cb92b7a66144b05d</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-15 17:24:05</sys_updated_on>
+        <sys_updated_on>2017-09-19 12:32:08</sys_updated_on>
         <table>x_ahho_compliance_request</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

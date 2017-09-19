@@ -29,10 +29,10 @@
         <message/>
         <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><font size="3">Hello &nbsp;${opened_by},<br /></font></span></p>
 <p><span style="font-size: 12pt;"><strong>This is your FINAL REMINDER. &nbsp;</strong>Your request will be automatically closed in 24 hours unless you respond with the requested information we need to complete your request.&nbsp;</span></p>
-<p><span style="font-size: 12pt;">We need more information from you to complete the regulatory request you opened. &nbsp;Please open the request via the link below and add the required information.&nbsp;</span></p>
+<p><span style="font-size: 12pt;">We need more information from you to complete the request you opened. &nbsp;Please open the request via the link below and add the required information.&nbsp;</span></p>
 <p><span style="font-size: 12pt;">${category} :&nbsp;${request_type}</span></p>
 <p><span style="font-size: 12pt;">${short_description}</span><br /><br /></p>
-<p><span style="font-size: 12pt;">Click here to be taken to the Regulatory Request: ${URI_REF}</span></p>]]></message_html>
+<p><span style="font-size: 12pt;">Click here to be taken to the request: ${URI_REF}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Pending requester input FINAL</name>
@@ -54,7 +54,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9d08438813598f00d80074c66144b041</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Pending requester input FINAL</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sysevent_email_action_9d08438813598f00d80074c66144b041</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-15 15:25:11</sys_updated_on>
+        <sys_updated_on>2017-09-19 12:24:12</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="u_prod_gp_customer">u_custnameSTARTSWITH^u_custnameISNOTEMPTY^EQ<item endquery="false" field="u_custname" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
+        <filter table="u_prod_gp_customer">u_custnameSTARTSWITHsf^u_custnameISNOTEMPTY^EQ<item endquery="false" field="u_custname" goto="false" newquery="false" operator="STARTSWITH" or="false" value="sf"/>
             <item endquery="false" field="u_custname" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
-        <last_used>2017-09-19 12:25:21</last_used>
+        <last_used>2017-09-19 12:25:16</last_used>
         <mobile>true</mobile>
         <roles/>
         <sys_class_name>sys_filter</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-08-18 17:14:50</sys_created_on>
+        <sys_created_on>2017-09-19 12:25:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>5bddd3db13a4c340d80074c66144b07f</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_id>b97e8fe513118340d80074c66144b05a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>mobile</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>sys_filter_5bddd3db13a4c340d80074c66144b07f</sys_update_name>
+        <sys_update_name>sys_filter_b97e8fe513118340d80074c66144b05a</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-19 12:25:21</sys_updated_on>
+        <sys_updated_on>2017-09-19 12:25:16</sys_updated_on>
         <table>u_prod_gp_customer</table>
         <title>mobile</title>
         <user display_value="Thomas Weyer">6d72457ce0a0010078f2c0e8182e120e</user>
