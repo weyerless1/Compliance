@@ -11,7 +11,10 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><strong style="color: #008000; font-size: 14px;"><span style="color: green; font-size: 8.5pt;">For Inspection notification requests:&nbsp;<strong style="font-size: 13.3333px; text-align: left;"><span style="color: green;"><span style="color: #000000; font-size: 14pt; background-color: #ffff00;">attachment(s) required&nbsp;</span></span></strong></span></strong></p>]]></description>
+        <description><![CDATA[<p><strong style="color: #008000; font-size: 14px;"><span style="color: green; font-size: 8.5pt;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">For Inspection notification requests:</span>&nbsp;<strong style="font-size: 13.3333px; text-align: left;"><span style="color: green;"><span style="color: #000000; font-size: 14pt; background-color: #ffff00;">attachment(s) required&nbsp;</span></span></strong></span></strong></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong style="color: #008000; font-size: 14px;"><span style="color: green;"><strong style="font-size: 13.3333px; text-align: left;"><span style="color: green;"><span style="color: #000000;"><a style="color: #343d47;" href="/sys_attachment.do?sys_id=5fb3e4f913d18340d80074c66144b067&amp;sysparm_record_target=sys_attachment&amp;sysparm_record_row=2&amp;sysparm_record_rows=2&amp;sysparm_record_list=table_name%3Dx_ahho_compliance_request_type%5Etable_sys_id%3D10527e64139c4300d80074c66144b03e">Inspection Conclusion Checklist</a>&nbsp;(Excel spreadsheet)</span></span></strong></span></strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong style="color: #008000; font-size: 14px;"><span style="color: green;"><strong style="font-size: 13.3333px; text-align: left;"><span style="color: green;"><span style="color: #000000;"><a style="color: #343d47;" href="/sys_attachment.do?sys_id=31c3a43d13d18340d80074c66144b0c8&amp;sysparm_record_target=sys_attachment&amp;sysparm_record_row=1&amp;sysparm_record_rows=2&amp;sysparm_record_list=table_name%3Dx_ahho_compliance_request_type%5Etable_sys_id%3D10527e64139c4300d80074c66144b03e">Inspection Conclusion Checklist</a>&nbsp;(PDF)</span></span></strong></span></strong></span></p>]]></description>
         <entitlement_script/>
         <group/>
         <icon/>
@@ -69,7 +72,7 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <sys_created_on>2017-07-28 14:59:56</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>6e95be28139c4300d80074c66144b06f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Inspection Notification</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
@@ -77,7 +80,7 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sc_cat_item_producer_6e95be28139c4300d80074c66144b06f</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-19 12:20:20</sys_updated_on>
+        <sys_updated_on>2017-09-19 18:58:38</sys_updated_on>
         <table_name>x_ahho_compliance_request</table_name>
         <template/>
         <type>item</type>

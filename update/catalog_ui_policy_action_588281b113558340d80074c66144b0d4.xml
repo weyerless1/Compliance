@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Alerts and Recalls">b3f82804131ccb00cb92b7a66144b0f2</catalog_item>
+        <catalog_variable>IO:207bf87d13158340d80074c66144b0a3</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-09-19 20:52:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>588281b113558340d80074c66144b0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_instructions</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_588281b113558340d80074c66144b0d4</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-09-19 20:52:29</sys_updated_on>
+        <table/>
+        <ui_policy display_value="readonly instriuctions">305201b113558340d80074c66144b083</ui_policy>
+        <variable>u_instructions</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

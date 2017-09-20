@@ -36,17 +36,17 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>category</name>
-        <order>120</order>
+        <name>customer_list</name>
+        <order>200</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Category</question_text>
+        <question_text>Customer(s)</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_ahho_compliance_request</record_producer_table>
-        <reference>x_ahho_compliance_request_category</reference>
+        <reference>u_prod_gp_customer</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <scale_max>5</scale_max>
@@ -57,18 +57,18 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-08-29 16:36:05</sys_created_on>
+        <sys_created_on>2017-09-19 15:52:55</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>893e3b3613b08300cb92b7a66144b0d6</sys_id>
+        <sys_id>449d33a513918340d80074c66144b079</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Category</sys_name>
+        <sys_name>Customer(s)</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>item_option_new_893e3b3613b08300cb92b7a66144b0d6</sys_update_name>
+        <sys_update_name>item_option_new_449d33a513918340d80074c66144b079</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-19 15:50:19</sys_updated_on>
+        <sys_updated_on>2017-09-19 15:53:17</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>
@@ -85,5 +85,5 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=893e3b3613b08300cb92b7a66144b0d6"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=449d33a513918340d80074c66144b079"/>
 </record_update>

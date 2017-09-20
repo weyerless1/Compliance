@@ -4,7 +4,7 @@
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Category" mandatory="true" max_length="32" name="category" reference="x_ahho_compliance_request_category" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
-        <element label="Instructions" max_length="4000" name="instructions" type="string"/>
+        <element label="Instructions" max_length="4000" name="instructions" type="translated_html"/>
         <element label="Name" mandatory="true" max_length="80" name="name" type="string"/>
         <index name="index">
             <element name="category"/>

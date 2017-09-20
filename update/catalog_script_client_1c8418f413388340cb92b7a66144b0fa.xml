@@ -20,11 +20,26 @@
    //Type appropriate comment here, and begin script below
 	
 	var categoryId = '977c15f3137bb200d80074c66144b003';
-	var categoryName = 'Alerts and Recalls';
+	var categoryName = 'Alerts and Recalls';	
 	
-	g_form.setValue('category', categoryId, categoryName);
+	var requestType = new GlideRecord('x_ahho_compliance_request_type');
+	requestType.addQuery('category', categoryId);
+	requestType.query(recordResponse);
 	
-	g_form.setMandatory('customer_type', true);
+	g_form.setReadOnly('u_instructions', true);		
+	
+	g_form.setValue('category', categoryId, categoryName);			
+} 
+
+function recordResponse(rec) {
+	
+	var instructions = '';
+	
+	while (rec.next()) { 
+		instructions += rec.instructions;
+	} 
+
+	g_form.setValue('u_instructions', instructions);
 } ]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
@@ -32,7 +47,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1c8418f413388340cb92b7a66144b0fa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Alerts defaults</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
@@ -41,7 +56,7 @@
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>catalog_script_client_1c8418f413388340cb92b7a66144b0fa</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-22 18:27:15</sys_updated_on>
+        <sys_updated_on>2017-09-19 20:46:34</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
