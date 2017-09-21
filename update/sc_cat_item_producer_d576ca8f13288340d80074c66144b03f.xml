@@ -13,8 +13,8 @@
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p><strong style="color: #008000; font-size: 14px;"><span style="color: green; font-size: 8.5pt;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">For Radiation badge/monitor requests:</span>&nbsp;<strong style="font-size: 13.3333px; text-align: left;"><span style="color: green;"><span style="color: #000000; font-size: 14pt; background-color: #ffff00;">attachment(s) required&nbsp;</span></span></strong></span></strong></p>
 <p>&nbsp;</p>
-<p><a title="Appendix C-1_Radiation Safety Program_Radiation Exposure History Release" href="/sys_attachment.do?sys_id=eb82e4f913d18340d80074c66144b0a0&amp;sysparm_record_target=sys_attachment&amp;sysparm_record_row=1&amp;sysparm_record_rows=2&amp;sysparm_record_list=table_name%3Dx_ahho_compliance_request_type%5Etable_sys_id%3Dabab028313688340d80074c66144b0bd"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong style="color: #008000; font-size: 14px;"><span style="color: green;"><strong style="font-size: 13.3333px; text-align: left;"><span style="color: green;"><span style="color: #000000;">Appendix C-1_Radiation Safety Program_Radiation Exposure History Release </span></span></strong></span></strong></span></a></p>
-<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong style="color: #008000; font-size: 14px;"><span style="color: green;"><strong style="font-size: 13.3333px; text-align: left;"><span style="color: green;"><span style="color: #000000;"><a title="Appendix C-2_Radiation Safety Program_Radiation Monitor Request" href="/sys_attachment.do?sys_id=6e92e4f913d18340d80074c66144b063&amp;sysparm_record_target=sys_attachment&amp;sysparm_record_row=2&amp;sysparm_record_rows=2&amp;sysparm_record_list=table_name%3Dx_ahho_compliance_request_type%5Etable_sys_id%3Dabab028313688340d80074c66144b0bd">Appendix C-2_Radiation Safety Program_Radiation Monitor Request</a></span></span></strong></span></strong></span></p>]]></description>
+<p><a title="Appendix C-1_Radiation Safety Program_Radiation Exposure History Release" href="sys_attachment.do?sys_id=eb82e4f913d18340d80074c66144b0a0" target="_self"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong style="color: #008000; font-size: 14px;"><span style="color: green;"><strong style="font-size: 13.3333px; text-align: left;"><span style="color: green;"><span style="color: #000000;">Appendix C-1_Radiation Safety Program_Radiation Exposure History Release</span></span></strong></span></strong></span></a></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong style="color: #008000; font-size: 14px;"><span style="color: green;"><strong style="font-size: 13.3333px; text-align: left;"><span style="color: green;"><span style="color: #000000;"><a title="Appendix C-2_Radiation Safety Program_Radiation Monitor Request" href="sys_attachment.do?sys_id=6e92e4f913d18340d80074c66144b063" target="_top">Appendix C-2_Radiation Safety Program_Radiation Monitor Request</a></span></span></strong></span></strong></span></p>]]></description>
         <entitlement_script/>
         <group/>
         <icon/>
@@ -78,7 +78,7 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <sys_created_on>2017-08-17 16:14:28</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d576ca8f13288340d80074c66144b03f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>New Radiation Badge/Monitor</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
@@ -86,7 +86,7 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sc_cat_item_producer_d576ca8f13288340d80074c66144b03f</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-19 18:56:42</sys_updated_on>
+        <sys_updated_on>2017-09-21 17:19:04</sys_updated_on>
         <table_name>x_ahho_compliance_request</table_name>
         <template/>
         <type>item</type>
