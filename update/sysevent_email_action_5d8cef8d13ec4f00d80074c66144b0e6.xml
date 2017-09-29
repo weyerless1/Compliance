@@ -13,7 +13,7 @@
         </condition>
         <content_type>text/html</content_type>
         <description/>
-        <event_name/>
+        <event_name>apinvoice.approval_reminder</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -30,21 +30,23 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello,<br /><br /></p>
-<p>Comments have been added to your request.</p>
-<p>Customer Notes: ${comments}</p>
-<p>To view the Request click on : ${URI_REF}</p>]]></message_html>
+        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Hello ${requested_for},</span><br /><br /></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Comments have been added to your request.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${category} :&nbsp;${request_type}<br /></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Title: ${short_description}<br />Customer Notes: ${comments}</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">To view the request click on : ${URI_REF}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>CustomerNotes send to Requester</name>
         <omit_watermark>false</omit_watermark>
         <order/>
         <push_message_only>false</push_message_only>
-        <recipient_fields>opened_by,assigned_to,requested_for</recipient_fields>
+        <recipient_fields>requested_for</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
         <subject>Your Regulatory Request ${number} - comments added</subject>
@@ -55,7 +57,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>5d8cef8d13ec4f00d80074c66144b0e6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>CustomerNotes send to Requester</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
@@ -64,7 +66,7 @@
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sysevent_email_action_5d8cef8d13ec4f00d80074c66144b0e6</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-19 12:23:01</sys_updated_on>
+        <sys_updated_on>2017-09-29 15:41:36</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
