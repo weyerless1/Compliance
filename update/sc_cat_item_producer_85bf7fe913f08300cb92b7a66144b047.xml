@@ -11,7 +11,11 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">If you are requesting more than 1 work order to be closed as Not Needed:</span></p>
+<ol>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Add the first work order number in the field on the form,</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Please attach an excel spreadsheet to this request with all work order numbers listed.</span></li>
+</ol>]]></description>
         <entitlement_script/>
         <group/>
         <icon/>
@@ -65,7 +69,7 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <sys_created_on>2017-08-25 19:29:00</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>85bf7fe913f08300cb92b7a66144b047</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>PM Not Needed</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
@@ -73,7 +77,7 @@ producer.redirect = "catalog_home.do?sysparm_catalog=95812d86134c0b00d80074c6614
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
         <sys_update_name>sc_cat_item_producer_85bf7fe913f08300cb92b7a66144b047</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-09-15 18:37:11</sys_updated_on>
+        <sys_updated_on>2017-10-10 19:58:28</sys_updated_on>
         <table_name>x_ahho_compliance_request</table_name>
         <template/>
         <type>item</type>

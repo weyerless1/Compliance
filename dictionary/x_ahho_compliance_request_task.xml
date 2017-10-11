@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Request task" max_length="40" name="x_ahho_compliance_request_task" sizeclass="5" type="collection"/>
+    <element extends="task" label="Request task" max_length="40" name="x_ahho_compliance_request_task" sizeclass="6" type="collection"/>
 </database>

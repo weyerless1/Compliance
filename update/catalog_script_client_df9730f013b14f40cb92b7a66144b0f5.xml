@@ -14,49 +14,44 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>PM Not Needed validation</name>
+        <name>PM Not Needed validation submit</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading || newValue == '') {
-      return;
-   }
-
+        <script><![CDATA[function onSubmit() {
    //Type appropriate comment here, and begin script below
-   
+
 	var AlertFormat = 'Please enter a valid 10 digit WO number. ';
-	var AlertLength = 'If you are requesting more than 1 work order to be closed as Not Needed, please attach an excel spreadsheet to this request with all work order numbers listed.';
+	var AlertLength = 'If you are requesting more than 1 work order to be closed as Not Needed, please attach an excel spreadsheet to this request with all work order numbers listed.';	
 	var WONumberValidLength = 10;
 	
 	var woNumberValid = true;
 	var alertMessage = '';
 	
-	var woNumber = newValue;		
-	var woNumberLength = woNumber.toString().length;			
-
-	// Wo number non-numeric or wrong length
-	if(!isNumber(woNumber) || (woNumberLength != WONumberValidLength))
-	{
-		alertMessage += AlertFormat;		
-		woNumberValid = false;
-	}
-
-	// Add alert msg if too long, assuming they are trying to enter multiple wo numbers
-	if(woNumberLength > WONumberValidLength)
-	{
-		alertMessage += '\n\n' + AlertLength;
-		woNumberValid = false;			
-	}
+	var woNumber = g_form.getValue('wo_number');
 	
-	// Clear the (previous) error msg before checking if wo number is valid
-	g_form.hideFieldMsg('wo_number');	
-
-	if(!woNumberValid)
+	if(woNumber != '' )
 	{
-		alert(alertMessage);
-		g_form.showFieldMsg('wo_number', AlertFormat, 'error'); 
-		g_form.submitted = false;		
-	}
+		var woNumberLength = woNumber.toString().length;			
 
+		// Wo number non-numeric or wrong length		
+		if(!isNumber(woNumber) || (woNumberLength != WONumberValidLength))
+		{
+			alertMessage += AlertFormat;		
+			woNumberValid = false;
+		}
+		
+		// Add alert msg if too long, assuming they are trying to enter multiple wo numbers		
+		if(woNumberLength > WONumberValidLength)
+		{
+			alertMessage += '\n\n' + AlertLength;
+			woNumberValid = false;			
+		}
+		
+		if(!woNumberValid)
+		{
+			alert(alertMessage);
+			g_form.submitted = false;		
+		}
+	}
 	return woNumberValid;		
 }
 
@@ -65,22 +60,22 @@ function isNumber(n) {
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-10-02 19:59:11</sys_created_on>
+        <sys_created_on>2017-10-11 14:02:09</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>9f92b37113e18740cb92b7a66144b027</sys_id>
-        <sys_mod_count>18</sys_mod_count>
-        <sys_name>PM Not Needed validation</sys_name>
+        <sys_id>df9730f013b14f40cb92b7a66144b0f5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PM Not Needed validation submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>catalog_script_client_9f92b37113e18740cb92b7a66144b027</sys_update_name>
+        <sys_update_name>catalog_script_client_df9730f013b14f40cb92b7a66144b0f5</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-10-11 14:36:01</sys_updated_on>
+        <sys_updated_on>2017-10-11 14:40:19</sys_updated_on>
         <table/>
-        <type>onChange</type>
+        <type>onSubmit</type>
         <ui_type>10</ui_type>
         <variable_set/>
         <view/>
