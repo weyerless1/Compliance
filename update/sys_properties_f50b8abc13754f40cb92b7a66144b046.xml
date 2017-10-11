@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Request activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_ahho_compliance_request_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-10-11 20:06:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f50b8abc13754f40cb92b7a66144b046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_ahho_compliance_request_activity.fields</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>sys_properties_f50b8abc13754f40cb92b7a66144b046</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-10-11 20:06:36</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,state,opened_by,work_notes,comments,*Attachments*,*Email*,pending_reason,request_type,requested_for,customer_list,closed_by,closed_at,close_notes,category</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=f50b8abc13754f40cb92b7a66144b046"/>
+</record_update>
