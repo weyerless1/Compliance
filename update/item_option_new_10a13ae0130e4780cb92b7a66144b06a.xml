@@ -3,14 +3,14 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="General/Other Questions">f6500f9713480f00d80074c66144b068</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>javascript:gs.getUserID();</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -25,28 +25,28 @@
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table/>
+        <list_table>x_ahho_talent_eng_channel</list_table>
         <lookup_label/>
         <lookup_price/>
         <lookup_table/>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>requested_for</name>
-        <order>110</order>
+        <name>comm_channel</name>
+        <order>300</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Requested for</question_text>
+        <question_text>Communication channel</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_ahho_compliance_request</record_producer_table>
-        <reference>sys_user</reference>
+        <record_producer_table>x_ahho_talent_eng_comm_request</record_producer_table>
+        <reference>x_ahho_talent_eng_channel</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <scale_max>5</scale_max>
@@ -57,21 +57,21 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>tlWeyer</sys_created_by>
-        <sys_created_on>2017-08-29 16:32:18</sys_created_on>
+        <sys_created_on>2017-10-23 14:32:28</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>fc0d77f213b08300cb92b7a66144b06b</sys_id>
+        <sys_id>10a13ae0130e4780cb92b7a66144b06a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Requested for</sys_name>
+        <sys_name>Communication channel</sys_name>
         <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
-        <sys_update_name>item_option_new_fc0d77f213b08300cb92b7a66144b06b</sys_update_name>
+        <sys_update_name>item_option_new_10a13ae0130e4780cb92b7a66144b06a</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-08-29 16:32:18</sys_updated_on>
+        <sys_updated_on>2017-10-23 14:32:28</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>21</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -85,5 +85,5 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=fc0d77f213b08300cb92b7a66144b06b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=10a13ae0130e4780cb92b7a66144b06a"/>
 </record_update>
