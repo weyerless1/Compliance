@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>From Quality.Management@trimedx.com</description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">recipientsLIKEQuality.Management@trimedx.com^EQ<item endquery="false" field="recipients" goto="false" newquery="false" operator="LIKE" or="false" value="Quality.Management@trimedx.com"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Regulatory Ccompliance Create New</name>
+        <order/>
+        <reply_email/>
+        <required_roles/>
+        <script/>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>tlWeyer</sys_created_by>
+        <sys_created_on>2017-12-13 18:41:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>84535e0913878340cb92b7a66144b04f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Regulatory Ccompliance Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Regulatory Compliance" source="x_ahho_compliance">8c730111133f7a00cb92b7a66144b0f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Regulatory Compliance">8c730111133f7a00cb92b7a66144b0f1</sys_scope>
+        <sys_update_name>sysevent_in_email_action_84535e0913878340cb92b7a66144b04f</sys_update_name>
+        <sys_updated_by>tlWeyer</sys_updated_by>
+        <sys_updated_on>2017-12-14 17:33:52</sys_updated_on>
+        <table>x_ahho_compliance_request</table>
+        <template>active=true^assignment_group=37d3a36f13922a0082857e776144b0f4^short_descriptionDYNAMICb637bd21ef3221002841f7f775c0fbb6^descriptionDYNAMIC367bf121ef3221002841f7f775c0fbe2^EQ</template>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>
